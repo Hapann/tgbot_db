@@ -41,6 +41,9 @@ POSTGRES_PASSWORD=your_db_password
 POSTGRES_DB=your_db_name
 POSTGRES_HOST=postgres
 POSTGRES_PORT=5432
+
+TOKEN= Токен вашего бота (можно получить через @BotFather)
+GROUP_CHAT_ID= Id вашей супергруппы (можно узнать через web-версию телеграм или через других ботов, например @myidbot)
 ```
 ## Примечание ⚠️
 
