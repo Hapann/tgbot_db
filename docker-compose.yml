@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  app:
+    build: .
+    command: "python3 main.py"
+    volumes:
+      - ./:/app
+    restart: always

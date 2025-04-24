@@ -1,0 +1,32 @@
+[33mcommit 11102a9fdb271bd3bae7c984686b3bb7ef907309[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Hapann <pasha-131@yandex.ru>
+Date:   Tue Feb 25 10:38:34 2025 +0300
+
+    fix: bug if reply message from group
+
+[33mcommit 583c6ffa633b666f7153bab5c88a403d26384f0a[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 2118582 f9dab41
+Author: Hapann <pasha-131@yandex.ru>
+Date:   Mon Feb 24 23:43:10 2025 +0300
+
+    Merge pull request #1 from Hapann/PSI_24.02.2025
+    
+    Create TGbot PSI
+
+[33mcommit f9dab41b18393164d0e0660e8cabbadd3434c0e3[m[33m ([m[1;31morigin/PSI_24.02.2025[m[33m)[m
+Author: Hapann <pasha-131@yandex.ru>
+Date:   Mon Feb 24 23:42:12 2025 +0300
+
+    Create TGbot PSI
+
+[33mcommit 2118582abae10863cead0f5cd146b97ab0776fb2[m[33m ([m[1;31morigin/feature/rename_text[m[33m)[m
+Author: Hapann <pasha-131@yandex.ru>
+Date:   Mon Feb 24 10:56:41 2025 +0300
+
+    work bot for psi
+
+[33mcommit 4905d199f4c61759677febee90aecf287f4f5f12[m
+Author: Hapann <pasha-131@yandex.ru>
+Date:   Mon Feb 24 10:46:52 2025 +0300
+
+    Initial commit
