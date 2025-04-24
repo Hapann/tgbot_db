@@ -6,4 +6,30 @@ services:
     command: "python3 main.py"
     volumes:
       - ./:/app
-    restart: always
+    depends_on:
+      - postgres
+    networks:
+      - backend-network
+    env_file:
+      - ./.env
+
+  postgres:
+    image: postgres:latest
+    ports:
+      - "${POSTGRES_PORT}:${POSTGRES_PORT}"
+    environment:
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+      - POSTGRES_DB=${POSTGRES_DB}
+    networks:
+      - backend-network
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+
+volumes:
+  postgres-data:
+
+
+networks:
+  backend-network:
+    driver: bridge

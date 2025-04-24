@@ -1,4 +1,4 @@
-FROM python:latest
+FROM python:3.11.9
 WORKDIR /app
-COPY req.txt /app
-RUN pip install -r req.txt
+COPY requirements.txt /app
+RUN pip install -r requirements.txt
