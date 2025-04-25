@@ -1,7 +1,7 @@
 .venv
 .env
 logs/
-__pycache__
-globals\__pycache__
-handlers\__pycache__
-loger\__pycache__
+__pycache__/
+globals/__pycache__
+handlers/__pycache__
+loger/__pycache__
